@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content:center;
     align-items: end;
-    scale: 1;
+    scale: 0.7;
     gap: 2rem;
     height: 10rem;
     width: 5.6rem;
@@ -39,10 +39,10 @@ body{
     left: 0px;
     transform:skew(21deg) ;
     background: #d30f0fff;
-    animation: center 300ms ease-in 1.5s forwards;
+    animation: center 250ms ease-out 1.5s forwards;
 }
 .i:nth-child(3){
-    animation: right 300ms ease-out 1.8s forwards;
+    animation: right 250ms ease-in 1.8s forwards;
 }
 @keyframes background-color {
     100%{
